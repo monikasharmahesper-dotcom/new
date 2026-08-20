@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Luna & Co.</title><meta name="description" content="Contact the Luna & Co. fashion store.">
+<link rel="stylesheet" href="style.css"><!-- GTM HEAD CODE GOES HERE -->
+</head><body><!-- GTM BODY CODE GOES HERE --><header><nav><a class="brand" href="index.html">LUNA & CO.</a>
+<div><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="women.html">Women</a><a href="men.html">Men</a><a href="new-arrivals.html">New Arrivals</a><a href="sale.html">Sale</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div></nav></header><main><section class="container"><h1>Contact Us</h1><form id="contact-form">
+<label>Name<input required name="name"></label><label>Email<input required type="email" name="email"></label>
+<label>Message<textarea name="message" rows="6"></textarea></label>
+<button class="btn" type="submit">Send Message</button><p id="msg"></p></form></section></main>
+<footer>Luna & Co. Fashion Store — Training Website</footer><script>document.getElementById("contact-form").addEventListener("submit",function(e){e.preventDefault();
+document.getElementById("msg").textContent="Demo submission successful.";
+window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:"contact_form_submission"});});</script></body></html>

@@ -1,0 +1,1 @@
+Fashion ecommerce training website. Upload all files to GitHub Pages. Practice SEO, GTM and GA4. GTM placeholder comments are included in every HTML file.
